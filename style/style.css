@@ -1,23 +1,47 @@
 /* reset */
 *{
     margin: 0%;
-    padding: 0%;
     box-sizing: border-box;
 }
 
 /* HEADER */
 header{
     background-color: #418ecc;
-    background-image: url(../img/pattern.png);
-    background-size: contain;
+    background-image: url(../img/pattern.png); 
+    background-repeat: repeat;
+}
+    
 
+.logo{
+    height: 50px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.Booleaner{
+    color: #418ecc;
+}
+
+.highlighter{
+    background-color: yellow;
+}
+
+ul{
+    padding-left: 2%;
+}
+
+/* tabella */
+
+table{
+    text-align: center;
+}
+.item-thead{
+    background-color: #51a6e0;
+    color: white;
     
 }
 
-.logo{
-    height: 40px;
-    text-align: left;
-    margin-top: 20px;
+.item-tbody{
+    background-color: #bce3f0;
+    
 }
-
-
