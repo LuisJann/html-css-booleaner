@@ -18,6 +18,11 @@ header{
     margin-top: 50px;
 }
 
+h4{
+    font-size: medium;
+    color: lightgrey;
+}
+
 .Booleaner{
     color: #418ecc;
 }
@@ -25,6 +30,8 @@ header{
 .highlighter{
     background-color: yellow;
 }
+
+/* elenco puntato */
 
 ul{
     padding-left: 2%;
@@ -34,6 +41,7 @@ ul{
 
 table{
     text-align: center;
+    border-spacing: 0ch;
 }
 .item-thead{
     background-color: #51a6e0;
@@ -45,3 +53,29 @@ table{
     background-color: #bce3f0;
     
 }
+
+/* FOOTER */
+
+footer{
+    
+}
+.monitor{
+    background-image: url(../img/monitor.jpg);
+    width: 250px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 10px;
+} 
+
+.graph{
+    background-image: url(../img/graph.jpg);
+    width: 250px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+} 
+
+
