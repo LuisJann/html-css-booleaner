@@ -8,7 +8,7 @@
 header{
     background-color: #418ecc;
     background-image: url(../img/pattern.png); 
-    background-repeat: repeat;
+    background-size: 30%;
 }
     
 
@@ -16,6 +16,22 @@ header{
     height: 50px;
     text-align: left;
     margin-top: 50px;
+}
+
+.smallfont{
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* COMMON */
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+h1{
+    margin-top: 10px;
 }
 
 h4{
@@ -40,12 +56,17 @@ ul{
 /* tabella */
 
 table{
-    text-align: center;
+    text-align: left;
     border-spacing: 0ch;
+}
+
+td{
+    width: 5%;
 }
 .item-thead{
     background-color: #51a6e0;
     color: white;
+    font-size: 20px;
     
 }
 
@@ -56,11 +77,10 @@ table{
 
 /* FOOTER */
 
-footer{
-    
-}
 .monitor{
     background-image: url(../img/monitor.jpg);
+    background-position: center;
+    background-size: cover;
     width: 250px;
     height: 150px;
     color: white;
@@ -71,6 +91,8 @@ footer{
 
 .graph{
     background-image: url(../img/graph.jpg);
+    background-position: center;
+    background-size: cover;
     width: 250px;
     height: 150px;
     color: white;
